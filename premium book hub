@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>premium books | Study Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top, #111827, #000);
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 30px 15px 10px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    header p {
+      opacity: 0.85;
+      font-size: 0.95rem;
+    }
+    .join-btn {
+      margin: 20px auto;
+      display: inline-block;
+      padding: 14px 30px;
+      border-radius: 30px;
+      background: linear-gradient(135deg, #6366f1, #8b5cf6);
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 0 25px rgba(99,102,241,0.6);
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 10px 15px 40px;
+    }
+    .card {
+      background: rgba(255,255,255,0.05);
+      border-radius: 18px;
+      padding: 18px;
+      margin-bottom: 18px;
+      border: 1px solid rgba(99,102,241,0.6);
+      box-shadow: 0 0 18px rgba(99,102,241,0.25);
+      animation: float 4s ease-in-out infinite;
+    }
+    }
+    .tag {
+      width: 40px;
+      height: 4px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .blue { background: #6366f1; }
+    .pink { background: #ec4899; }
+    .green { background: #22c55e; }
+    .card h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+    .card p {
+      margin: 6px 0 0;
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+    .card a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.8rem;
+      opacity: 0.6;
+      padding-bottom: 15px;
+    }
+  @keyframes float {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-8px); }
+      100% { transform: translateY(0px); }
+    }
+
+    .card:hover {
+      transform: translateY(-12px) scale(1.02);
+      box-shadow: 0 0 30px rgba(139,92,246,0.8);
+    }
+      .about-btn {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      padding: 8px 16px;
+      border-radius: 20px;
+      background: linear-gradient(135deg, #22c55e, #16a34a);
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 600;
+      box-shadow: 0 0 18px rgba(34,197,94,0.6);
+      z-index: 1000;
+      transition: all 0.3s ease;
+    }
+
+    .about-btn:hover {
+      transform: translateY(-3px) scale(1.05);
+      box-shadow: 0 0 28px rgba(34,197,94,0.9);
+    }
+
+</style>
+</head>
+<body>
+
+  <!-- Top Right  About Button -->
+  <a href="https://rankriders.vercel.app" class="about-btn">About Kaushik</a>
+  
+
+  <header>
+    <h1>📘 premium books</h1>
+    <p>Welcome to the official premium books study & discussion hub</p>
+    <a href="https://t.me/requestbyadmin0" class="join-btn"> main group for discussion</a>
+  </header>
+
+  <div class="container">
+
+    <!-- Main Group -->
+    <div class="card">
+      <a href="https://t.me/OFFICIALEXPERTHUB">
+        <div class="tag blue"></div>
+        <h2>⚡️𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟☠️ 𝗘𝗫𝗣𝗘𝗥𝗧𝗛𝗨𝗕</h2>
+        <p>Welcome! This is our premium books hub.</p>
+      </a>
+    </div>
+
+    <!-- Other Content Group -->
+    <div class="card">
+      <a href="https://t.me/Bookishworlds">
+        <div class="tag pink"></div>
+        <h2>𝗧𝗔𝗥𝗚𝗘𝗧 𝗝𝗘𝗘 / 𝗡𝗘𝗘𝗧 🎯</h2>
+        <p>Welcome! Here you will get extra content, updates, and important resources.
+    </div>
+     <!-- Other Content Group -->
+    <div class="card">
+      <a href="https://t.me/Premiumnotesx">
+        <div class="tag pink"></div>
+        <h2>⚡️𝙏𝙊𝙋𝙋𝙀𝙍’𝙎 𝙉𝙊𝙏𝙀𝙎 📝</h2>
+        <p>Welcome! Here you will get extra content, updates, and important resources.
+    </div>
+
+    <!-- Test Series Group -->
+    <div class="card">
+      <a href="https://t.me/EXPERTHUBFILE">
+        <div class="tag green"></div>
+        <h2>✨ 𝑬𝑿𝑷𝑬𝑹𝑻 𝑯𝑼𝑩 𝑭𝑰𝑳𝑬 </h2>
+        <p>Welcome! Join our test series group for regular tests and performance analysis.</p>
+      </a>
+    </div>
+
+  </div>
+
+<h3></h3>
+  <footer>
+    © 2026 premium books | Learn • Practice • Improve
+  </footer>
+
+</body>
+</html>
